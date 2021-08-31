@@ -5,7 +5,6 @@ const path = require('path');
 const babylon = require('babylon');
 const traverse = require('babel-traverse').default;
 const { transformFromAst } = require('babel-core');
-const argv = require('minimist')(process.argv.slice(2))
 
 /**
  * 创建资源
